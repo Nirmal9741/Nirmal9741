@@ -11,16 +11,16 @@
 <br/><br/>
 
 <!-- Social Connect Badges -->
-<a href="https://www.linkedin.com/in/nipunnayyar" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<a href="mailto:nipunnayyar1818@gmail.com">
+  <img src="https://img.shields.io/badge/Email-nipunnayyar1818%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: nipunnayyar1818@gmail.com" />
 </a>
 &nbsp;
-<a href="mailto:nipunnayyar1818@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+<a href="https://www.linkedin.com/in/nipunnayyar" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Nipun%20Nayyar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/Nirmal9741">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-Nirmal9741-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 </div>
@@ -31,6 +31,7 @@
 
 ```yaml
 name: Nipun Nayyar
+email: nipunnayyar1818@gmail.com
 career_stage: Aspiring DevOps Engineer / Cloud Fresher
 core_passion: Automating workflows, cloud deployments & CI/CD pipelines
 status: Actively seeking entry-level DevOps / Cloud Engineer roles
@@ -44,6 +45,7 @@ motto: "Learn by building, master by automating!"
 - 💡 **Who I Am:** A curious, tech-driven DevOps fresher focused on bridging development and operations with scalable automation.
 - 🚀 **What I Love Doing:** Setting up CI/CD pipelines, containerizing applications, writing clean Terraform scripts, and solving real-world infrastructure problems.
 - 📚 **Current Focus:** Deepening knowledge in Kubernetes orchestration, Cloud Security baselines, and preparing for Cloud certifications.
+- 📬 **Direct Contact:** [nipunnayyar1818@gmail.com](mailto:nipunnayyar1818@gmail.com)
 - 🤝 **Open For:** Junior DevOps Engineer, Cloud Support Engineer, Associate Platform Engineer roles and open-source contributions.
 
 <hr/>
@@ -126,7 +128,8 @@ motto: "Learn by building, master by automating!"
 
 ### 🤝 Let's Connect!
 Whether you want to discuss DevOps, collaborate on a project, or have an exciting opportunity:  
-**[Send an Email](mailto:nipunnayyar1818@gmail.com)** • **[Connect on LinkedIn](https://www.linkedin.com/in/nipunnayyar)**
+
+📧 **Email:** [nipunnayyar1818@gmail.com](mailto:nipunnayyar1818@gmail.com) &nbsp;•&nbsp; 💼 **LinkedIn:** [Nipun Nayyar](https://www.linkedin.com/in/nipunnayyar) &nbsp;•&nbsp; 🐙 **GitHub:** [@Nirmal9741](https://github.com/Nirmal9741)
 
 <br/>
 
