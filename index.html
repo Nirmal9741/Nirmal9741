@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nipun Nayyar | Cloud & DevOps Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Nipun Nayyar - Cloud & DevOps Engineer specializing in Terraform, Linux, Microsoft Azure, and CI/CD Automation.">
+  <meta name="keywords" content="DevOps Engineer, Cloud Architect, Terraform, Azure, Linux, CI/CD, GitHub Actions, Docker, Kubernetes">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="logo">
+      <span class="logo-badge">DEV//OPS</span>
+      <span>Nipun Nayyar</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#architecture">Architecture</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <div class="badge-status">
+        <span class="pulse-dot"></span>
+        <span>Open for Junior / Associate DevOps & Cloud Roles</span>
+      </div>
+
+      <h1 class="hero-title">
+        Automating Clouds with <br/>
+        <span class="gradient-text">Terraform, Linux & Azure</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Hi, I'm <strong>Nipun Nayyar</strong>. I bridge development and infrastructure by writing clean Infrastructure as Code (IaC), engineering resilient Azure topologies, and automating end-to-end CI/CD pipelines.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <span>Explore Projects</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <span>Contact Me</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Interactive Terminal -->
+    <div class="hero-terminal">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <span class="terminal-dot dot-red"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+        </div>
+        <span class="terminal-title">bash — azure-devops-lab — 80x24</span>
+        <span></span>
+      </div>
+
+      <div class="terminal-body" id="terminal-body">
+        <div><span class="t-prompt">nipun@azure-devops</span>:<span class="t-cmd">~</span>$ <span class="t-cmd">whoami</span></div>
+        <div style="margin-bottom: 0.8rem;">
+          <span class="t-highlight">Nipun Nayyar</span> (<span class="t-success">Cloud & DevOps Engineer</span>)<br/>
+          Specializing in: Terraform | Linux | Azure | CI/CD Pipelines
+        </div>
+
+        <div><span class="t-prompt">nipun@azure-devops</span>:<span class="t-cmd">~</span>$ <span class="t-comment"># Click chips below or type any command:</span></div>
+      </div>
+
+      <div class="terminal-quick-chips">
+        <button class="quick-chip" onclick="runQuickCommand('terraform')">$ terraform plan</button>
+        <button class="quick-chip" onclick="runQuickCommand('azure')">$ azure blueprint</button>
+        <button class="quick-chip" onclick="runQuickCommand('cicd')">$ pipeline status</button>
+        <button class="quick-chip" onclick="runQuickCommand('skills')">$ list skills</button>
+        <button class="quick-chip" onclick="runQuickCommand('clear')">$ clear</button>
+      </div>
+
+      <div style="padding: 0.5rem 1.25rem; background: #080c14; border-top: 1px solid var(--border-subtle);">
+        <div class="terminal-input-row">
+          <span class="t-prompt">nipun@azure-devops:~$</span>
+          <input type="text" id="terminal-input" class="terminal-input" placeholder="type 'help', 'terraform', 'skills'..." autocomplete="off"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Metrics Strip -->
+  <section class="metrics-strip">
+    <div class="metrics-container">
+      <div class="metric-item">
+        <span class="metric-value">100%</span>
+        <span class="metric-label">IaC Automated Deployments</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value">Zero</span>
+        <span class="metric-label">Manual Cloud Provisioning</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value">CI/CD</span>
+        <span class="metric-label">Automated Lint, Test & Rollout</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value">Linux</span>
+        <span class="metric-label">Automated Bash/Cron Daemons</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Technical Mastery -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <span class="section-tag">// Core Technical Competencies</span>
+      <h2 class="section-title">Engineered for Scalability & Speed</h2>
+      <p class="section-desc">Practical, hands-on mastery in modern DevOps tooling, infrastructure as code, and cloud environments.</p>
+    </div>
+
+    <div class="skills-grid">
+      <!-- Terraform -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">⚙️</div>
+        <h3 class="skill-title">Terraform (IaC)</h3>
+        <p class="skill-desc">Writing modular, reusable Infrastructure as Code. Remote state locking with Azure Blob Storage, drift detection, and security compliance.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Modules</span>
+          <span class="skill-tag">Remote State</span>
+          <span class="skill-tag">Azure Provider</span>
+          <span class="skill-tag">tflint</span>
+          <span class="skill-tag">tfsec</span>
+        </div>
+      </div>
+
+      <!-- Microsoft Azure -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">☁️</div>
+        <h3 class="skill-title">Microsoft Azure</h3>
+        <p class="skill-desc">Designing secure cloud environments. Hub-and-Spoke networks, Azure Firewall, Bastion, Private Endpoints, Key Vaults, and Landing Zones.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">VNets & Peering</span>
+          <span class="skill-tag">Azure Firewall</span>
+          <span class="skill-tag">Managed Identity</span>
+          <span class="skill-tag">Entra ID</span>
+          <span class="skill-tag">CAF</span>
+        </div>
+      </div>
+
+      <!-- Linux Administration -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">🐧</div>
+        <h3 class="skill-title">Linux & Bash Scripting</h3>
+        <p class="skill-desc">Strong foundation in Linux operating systems, user permissions, networking (DNS, SSH, iptables), systemd unit files, and Bash automation.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Ubuntu/Debian</span>
+          <span class="skill-tag">Bash Scripts</span>
+          <span class="skill-tag">Cron Daemons</span>
+          <span class="skill-tag">Systemd</span>
+          <span class="skill-tag">SSH / SSL</span>
+        </div>
+      </div>
+
+      <!-- CI/CD Pipelines -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">🔄</div>
+        <h3 class="skill-title">CI/CD Pipelines</h3>
+        <p class="skill-desc">Automated build, test, and release pipelines. Multi-stage testing with GitHub Actions and Azure DevOps to achieve zero-downtime releases.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">GitHub Actions</span>
+          <span class="skill-tag">Azure DevOps</span>
+          <span class="skill-tag">Automated Testing</span>
+          <span class="skill-tag">GitOps</span>
+        </div>
+      </div>
+
+      <!-- Containers & K8s -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">🐳</div>
+        <h3 class="skill-title">Containers & Docker</h3>
+        <p class="skill-desc">Building lightweight, secure multi-stage Dockerfiles. Multi-container orchestration with Docker Compose and Kubernetes deployment manifests.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Docker Compose</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Health Checks</span>
+        </div>
+      </div>
+
+      <!-- Monitoring & Security -->
+      <div class="skill-card">
+        <div class="skill-icon-wrap">📊</div>
+        <h3 class="skill-title">Observability & Security</h3>
+        <p class="skill-desc">Infrastructure telemetry, automated log collection, metric dashboards, and policy-driven security baselines.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Prometheus</span>
+          <span class="skill-tag">Grafana</span>
+          <span class="skill-tag">Azure Monitor</span>
+          <span class="skill-tag">Key Vault</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="section-header">
+      <span class="section-tag">// Real-World Implementations</span>
+      <h2 class="section-title">Production-Grade Projects</h2>
+      <p class="section-desc">Hands-on architectures and pipelines built with real code, automated deployments, and documented runbooks.</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="terraform">Terraform & Azure</button>
+      <button class="filter-btn" data-filter="cicd">CI/CD Pipelines</button>
+      <button class="filter-btn" data-filter="linux">Linux & Containers</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card" data-category="terraform azure">
+        <div>
+          <span class="project-badge-type">IaC & Azure</span>
+          <h3 class="project-name">az-monolithic-lz (Enterprise Landing Zone)</h3>
+          <p class="project-desc">
+            Production-grade modular Azure Landing Zone written in Terraform adhering to the Microsoft Cloud Adoption Framework (CAF).
+          </p>
+          <ul class="project-highlights">
+            <li>Hub-and-Spoke VNet peering with Central Azure Firewall</li>
+            <li>Remote state locking via encrypted Azure Blob Storage</li>
+            <li>Automated Subnet, NSG, and Route Table provisioning</li>
+            <li>Customizable parameterized modules for multi-region scale</li>
+          </ul>
+        </div>
+        <div class="project-footer">
+          <div class="project-tech">
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">CAF</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nirmal9741" target="_blank" class="icon-btn" title="View Source Code">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-category="cicd linux">
+        <div>
+          <span class="project-badge-type">CI/CD & Security</span>
+          <h3 class="project-name">End-to-End DevSecOps Pipeline</h3>
+          <p class="project-desc">
+            Multi-stage GitHub Actions pipeline enforcing static code analysis, vulnerability scanning, container build, and cloud rollout.
+          </p>
+          <ul class="project-highlights">
+            <li>Pre-commit linting (tflint, terraform fmt, flake8)</li>
+            <li>Static application security testing (SAST) & secret detection</li>
+            <li>Multi-stage Docker build with Trivy container scan</li>
+            <li>Automated plan artifact generation with gated pull requests</li>
+          </ul>
+        </div>
+        <div class="project-footer">
+          <div class="project-tech">
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Trivy</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nirmal9741" target="_blank" class="icon-btn" title="View Source Code">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-category="linux">
+        <div>
+          <span class="project-badge-type">Linux & Automation</span>
+          <h3 class="project-name">Automated Linux Health & Incident Daemon</h3>
+          <p class="project-desc">
+            Lightweight, robust Linux shell automation that monitors critical OS resources and automatically sends alerting webhooks.
+          </p>
+          <ul class="project-highlights">
+            <li>Collects real-time CPU, RAM, disk partition, and inode metrics</li>
+            <li>Threshold alerts for high load and runaway processes</li>
+            <li>Managed via systemd unit file with auto-restart capability</li>
+            <li>Automated rotated log retention to prevent disk overflow</li>
+          </ul>
+        </div>
+        <div class="project-footer">
+          <div class="project-tech">
+            <span class="skill-tag">Bash</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Systemd</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Nirmal9741" target="_blank" class="icon-btn" title="View Source Code">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Architecture Deep Dive Highlight -->
+    <div class="arch-card" id="architecture">
+      <div class="arch-info">
+        <span class="section-tag">// Enterprise Architecture</span>
+        <h3>Azure Hub-and-Spoke Topology</h3>
+        <p>
+          Designed for enterprise isolation and compliance. All outbound traffic routes through a centralized Azure Firewall, while private endpoints isolate backend PaaS resources with private DNS zones.
+        </p>
+
+        <div class="arch-specs">
+          <div class="spec-box">
+            <div class="spec-title">SECURITY BOUNDARY</div>
+            <div class="spec-val">Azure Firewall Premium</div>
+          </div>
+          <div class="spec-box">
+            <div class="spec-title">PROVISIONING ENGINE</div>
+            <div class="spec-val">Terraform Modules</div>
+          </div>
+          <div class="spec-box">
+            <div class="spec-title">ROUTING STRATEGY</div>
+            <div class="spec-val">UDR 0.0.0.0/0 Forced Tunnel</div>
+          </div>
+          <div class="spec-box">
+            <div class="spec-title">STATE PERSISTENCE</div>
+            <div class="spec-val">Azure Blob Storage w/ Lease</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-visual">
+       +------------------------------------+
+       |   HUB VNet (Central Connectivity)  |
+       |  +-------------------------------+ |
+       |  | Azure Firewall (Traffic Insp) | |
+       |  +---------------+---------------+ |
+       +------------------|-----------------+
+                          |
+             (VNet Peering + UDR)
+                          |
+         +----------------+----------------+
+         |                                 |
++--------v--------+               +--------v--------+
+| Spoke 1: Apps   |               | Spoke 2: Shared |
+| - Web Subnet    |               | - CI/CD Runners |
+| - DB Subnet     |               | - Bastion Host  |
+| - Private EP    |               | - Monitor Tools |
++-----------------+               +-----------------+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="contact-card">
+      <span class="section-tag">// Get In Touch</span>
+      <h2 class="contact-title">Let's Build Something Great Together</h2>
+      <p class="contact-desc">
+        I'm actively looking for full-time opportunities as a <strong>DevOps Engineer</strong>, <strong>Cloud Support Engineer</strong>, or <strong>Associate Platform Engineer</strong>. Reach out directly!
+      </p>
+
+      <div class="contact-methods">
+        <div class="contact-pill" style="cursor: pointer;" onclick="copyEmail()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span>nipunnayyar1818@gmail.com</span>
+          <span class="copy-btn">Copy</span>
+        </div>
+
+        <a href="https://www.linkedin.com/in/nirmal-74b567411" target="_blank" class="contact-pill">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <span>LinkedIn Profile</span>
+        </a>
+
+        <a href="https://github.com/Nirmal9741" target="_blank" class="contact-pill">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub: @Nirmal9741</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="current-year"></span> Nipun Nayyar. Built with Vanilla HTML, CSS & JavaScript • Hosted on GitHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
