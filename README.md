@@ -19,8 +19,8 @@
   <img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
-<a href="https://github.com/Nirmal9741">
-  <img src="https://img.shields.io/badge/GitHub-Nirmal9741-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<a href="https://nirmal9741.github.io/Nirmal9741/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Live_Portfolio-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
 </a>
 
 </div>
