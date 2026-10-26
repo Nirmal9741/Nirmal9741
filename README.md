@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Nipun%20Nayyar&fontSize=38&fontAlignY=38&desc=Aspiring%20DevOps%20and%20Cloud%20Engineer%20%7C%20Automation%20Enthusiast&descAlignY=62&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Nirmal&fontSize=38&fontAlignY=38&desc=Aspiring%20DevOps%20and%20Cloud%20Engineer%20%7C%20Automation%20Enthusiast&descAlignY=62&descSize=18" width="100%"/>
 
 <!-- Typing SVG Animation -->
 <a href="https://git.io/typing-svg">
@@ -30,7 +30,7 @@
 ### 🎯 About Me
 
 ```yaml
-name: Nipun Nayyar
+name: Nirmal
 email: nipunnayyar1818@gmail.com
 career_stage: Aspiring DevOps Engineer / Cloud Fresher
 core_passion: Automating workflows, cloud deployments & CI/CD pipelines
