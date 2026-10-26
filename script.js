@@ -17,7 +17,7 @@ const COMMANDS = {
   <span class="t-cmd">clear</span>        - Clear terminal screen
 `,
   whoami: () => `
-<span class="t-highlight">Nipun Nayyar (Nirmal9741)</span>
+<span class="t-highlight">Nirmal (Nirmal9741)</span>
 Role: <span class="t-success">Cloud & DevOps Engineer</span>
 Mission: Designing scalable Azure infrastructure, modular Terraform IaC, and zero-downtime CI/CD workflows.
 Status: <span class="t-success">Actively open for DevOps / Cloud Engineering roles!</span>
@@ -79,14 +79,14 @@ function executeCommand(rawCmd) {
 
   if (cmd === 'clear') {
     terminalBody.innerHTML = `
-      <div><span class="t-prompt">nipun@azure-devops</span>:<span class="t-cmd">~</span>$ <span class="t-comment">Type <span class="t-highlight">'help'</span> for available commands</span></div>
+      <div><span class="t-prompt">nirmal@azure-devops</span>:<span class="t-cmd">~</span>$ <span class="t-comment">Type <span class="t-highlight">'help'</span> for available commands</span></div>
     `;
     return;
   }
 
   const outputDiv = document.createElement('div');
   outputDiv.innerHTML = `
-    <div><span class="t-prompt">nipun@azure-devops</span>:<span class="t-cmd">~</span>$ ${escapeHtml(rawCmd)}</div>
+    <div><span class="t-prompt">nirmal@azure-devops</span>:<span class="t-cmd">~</span>$ ${escapeHtml(rawCmd)}</div>
   `;
 
   if (COMMANDS[cmd]) {
