@@ -15,8 +15,8 @@
   <img src="https://img.shields.io/badge/Email-nipunnayyar1818%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: nipunnayyar1818@gmail.com" />
 </a>
 &nbsp;
-<a href="https://www.linkedin.com/in/nipunnayyar" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Nipun%20Nayyar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<a href="https://www.linkedin.com/in/nirmal-74b567411" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/Nirmal9741">
@@ -129,7 +129,7 @@ motto: "Learn by building, master by automating!"
 ### 🤝 Let's Connect!
 Whether you want to discuss DevOps, collaborate on a project, or have an exciting opportunity:  
 
-📧 **Email:** [nipunnayyar1818@gmail.com](mailto:nipunnayyar1818@gmail.com) &nbsp;•&nbsp; 💼 **LinkedIn:** [Nipun Nayyar](https://www.linkedin.com/in/nipunnayyar) &nbsp;•&nbsp; 🐙 **GitHub:** [@Nirmal9741](https://github.com/Nirmal9741)
+📧 **Email:** [nipunnayyar1818@gmail.com](mailto:nipunnayyar1818@gmail.com) &nbsp;•&nbsp; 💼 **LinkedIn:** [Nirmal](https://www.linkedin.com/in/nirmal-74b567411) &nbsp;•&nbsp; 🐙 **GitHub:** [@Nirmal9741](https://github.com/Nirmal9741)
 
 <br/>
 
